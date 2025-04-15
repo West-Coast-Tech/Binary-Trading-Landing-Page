@@ -5,14 +5,14 @@ import logoDark from '@/assets/images/logo-dark.png'
 
 const Footer = () => {
 	return (
-		<footer className="bg-gray-200">
+		<footer className="bg-primary">
 			<div className="container">
 				<div className="grid xl:grid-cols-5 gap-6 py-12">
 					<div className="xl:col-span-2">
 						<Link to="index.html">
 							<img src={logoDark} className="h-8" />
 						</Link>
-						<p className="text-gray-500/80 mt-5 lg:w-4/5">
+						<p className="text-gray-100/80 mt-5 lg:w-4/5">
 							Make your web application stand out with high-quality landing page
 						</p>
 					</div>
@@ -21,16 +21,16 @@ const Footer = () => {
 							<div>
 								<div className="flex flex-col gap-3">
 									<h5 className="mb-3 uppercase">Platform</h5>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Demo</Link>
 									</div>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Pricing</Link>
 									</div>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Integrations</Link>
 									</div>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Status</Link>
 									</div>
 								</div>
@@ -38,16 +38,16 @@ const Footer = () => {
 							<div>
 								<div className="flex flex-col gap-3">
 									<h5 className="mb-3 uppercase">Knowledge Base</h5>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Blog</Link>
 									</div>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Help Center</Link>
 									</div>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Sales Tools catalog</Link>
 									</div>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">API</Link>
 									</div>
 								</div>
@@ -55,13 +55,13 @@ const Footer = () => {
 							<div>
 								<div className="flex flex-col gap-3">
 									<h5 className="mb-3 uppercase">Company</h5>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">About us</Link>
 									</div>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Career</Link>
 									</div>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Contact Us</Link>
 									</div>
 								</div>
@@ -69,16 +69,16 @@ const Footer = () => {
 							<div>
 								<div className="flex flex-col gap-3">
 									<h5 className="mb-3 uppercase">Legal</h5>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Usage Policy</Link>
 									</div>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Privacy Policy</Link>
 									</div>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Terms of Service</Link>
 									</div>
-									<div className="text-gray-500/80">
+									<div className="text-gray-100/80">
 										<Link to="">Trust</Link>
 									</div>
 								</div>
@@ -89,13 +89,10 @@ const Footer = () => {
 				<div className="border-t py-6">
 					<div className="grid sm:grid-cols-2 text-center sm:text-start gap-6">
 						<div>
-							<p className="text-gray-500/80 text-sm">
+							<p className="text-gray-100 text-sm">
 								{new Date().getFullYear()}© Prompt. All rights reserved.
 								Crafted by{' '}
-								<Link
-									to=""
-									className="text-gray-800 hover:text-primary transition-all"
-								>
+								<Link to="" className="text-gray-100">
 									Coderthemes
 								</Link>
 							</p>
@@ -104,7 +101,7 @@ const Footer = () => {
 							<div>
 								<Link to="">
 									<svg
-										className="w-5 h-5 text-gray-500 hover:text-primary transition-all"
+										className="w-5 h-5 text-gray-100 hover:text-primary transition-all"
 										xmlns="http://www.w3.org/2000/svg"
 										viewBox="0 0 24 24"
 										fill="none"
@@ -120,7 +117,7 @@ const Footer = () => {
 							<div>
 								<Link to="">
 									<svg
-										className="w-5 h-5 text-gray-500 hover:text-primary transition-all"
+										className="w-5 h-5 text-gray-100 hover:text-primary transition-all"
 										xmlns="http://www.w3.org/2000/svg"
 										viewBox="0 0 24 24"
 										fill="none"
@@ -136,7 +133,7 @@ const Footer = () => {
 							<div>
 								<Link to="">
 									<svg
-										className="w-5 h-5 text-gray-500 hover:text-primary transition-all"
+										className="w-5 h-5 text-gray-100 hover:text-primary transition-all"
 										xmlns="http://www.w3.org/2000/svg"
 										viewBox="0 0 24 24"
 										fill="none"

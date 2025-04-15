@@ -5,7 +5,7 @@ const PricingCards = () => {
 		<>
 			<div className="container relative">
 				<div className="text-center">
-					<span className="text-xs bg-primary/10 text-primary/90 rounded-full px-2 py-1">
+					<span className="text-xs bg-primary/10 text-secondary rounded-full px-2 py-1">
 						Plans
 					</span>
 					<h1 className="text-3xl/tight font-medium mb-4">Pricing</h1>
@@ -49,7 +49,7 @@ const PricingCards = () => {
 									<div className="flex mt-[120px]">
 										<Link
 											to=""
-											className="bg-primary/10 text-primary/90 w-full py-3 rounded-lg border border-transparent hover:border hover:border-primary/20 transition-all duration-300"
+											className="bg-primary/10 text-secondary w-full py-3 rounded-lg border border-transparent hover:border hover:border-primary/20 transition-all duration-300"
 										>
 											Purchase Now
 										</Link>
@@ -143,7 +143,7 @@ const PricingCards = () => {
 									<div className="flex mt-20">
 										<Link
 											to=""
-											className="bg-primary/10 text-primary/90 w-full py-3 rounded-lg border border-transparent hover:border hover:border-primary/20 transition-all duration-300"
+											className="bg-primary/10 text-secondary w-full py-3 rounded-lg border border-transparent hover:border hover:border-primary/20 transition-all duration-300"
 										>
 											Purchase Now
 										</Link>

@@ -8,10 +8,10 @@ type ServicesProps = {
 
 const Services = ({ services }: ServicesProps) => {
 	return (
-		<section className="py-12 bg-stone-200">
+		<section className="py-12 bg-gradient-to-br from-primary to-secondary">
 			<div className="container">
 				<div>
-					<h2 className="heading-h2 mb-5 text-center lg:text-left">
+					<h2 className="heading-h2 mb-5 text-center lg:text-left text-slate-100">
 						How does the platform work?
 					</h2>
 					<p className="text-slate-400 font-medium text-center lg:text-left">
@@ -23,18 +23,18 @@ const Services = ({ services }: ServicesProps) => {
 						return (
 							<div
 								key={idx}
-								className="group"
-								data-aos="fade-up"
-								data-aos-duration={300}
+								// className="group"
+								// data-aos="fade-right"
+								// data-aos-duration={100}
 							>
-								<div className="p-4 h-full bg-white rounded-md shadow group-hover:shadow-lg transition-all duration-300 min-height">
+								<div className="p-4 h-full bg-gradient-to-br from-black via-gray-100/10 to-black rounded-md shadow group-hover:shadow-lg transition-all duration-300 min-height">
 									<div className="w-full">
 										<img src={`${service.icon}`} alt={`${service.title}`} />
 									</div>
-									<h3 className="heading-h3 mt-6 text-center lg:text-left">
+									<h3 className="heading-h3 mt-6  text-center lg:text-left text-slate-100">
 										{service.title}
 									</h3>
-									<p className="text-base text-slate-400 leading-7 mt-2 text-center lg:text-left">
+									<p className="text-base text-slate-100 leading-7 mt-2 text-center lg:text-left">
 										{service.description}
 									</p>
 								</div>

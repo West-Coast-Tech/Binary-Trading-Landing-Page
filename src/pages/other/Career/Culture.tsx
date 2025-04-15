@@ -20,7 +20,7 @@ const Culture = () => {
 			<div className="my-14">
 				<div className="container relative">
 					<div className="text-center">
-						<span className="text-sm  bg-primary/10 text-primary/90 rounded-full px-3 py-1">
+						<span className="text-sm  bg-primary/10 text-secondary rounded-full px-3 py-1">
 							Our Culture{' '}
 						</span>
 						<h1 className="text-3xl/tight font-medium mt-3 mb-4">

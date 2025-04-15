@@ -8,11 +8,11 @@ import blog3 from '@/assets/images/blog/blog-3.png'
 
 const Blog = () => {
 	return (
-		<section className="py-20">
+		<section className="py-20 bg-secondary">
 			<div className="container">
 				<div className="text-center">
-					<h2 className="heading-h2 my-3">Useful Reading</h2>
-					<p className="text-slate-500 mt-5 mb-4">
+					<h2 className="heading-h2 my-3 text-slate-100">Useful Reading</h2>
+					<p className="text-slate-100 mt-5 mb-4">
 						Few articles to read to know more about cryptocurrency
 					</p>
 				</div>
@@ -34,8 +34,8 @@ const Blog = () => {
 							</span>
 							<img src={blog1} className="rounded-md" />
 						</div>
-						<p className="text-slate-500 mt-5">May 19 2020 . 5 min read</p>
-						<h3 className="mt-1 heading-h3">
+						<p className="text-slate-100 mt-5">May 19 2020 . 5 min read</p>
+						<h3 className="mt-1 heading-h3 text-slate-100">
 							<Link to="">Introducing blazzing fast new user interface</Link>
 						</h3>
 					</div>
@@ -56,8 +56,8 @@ const Blog = () => {
 							</span>
 							<img src={blog3} className="rounded-md" />
 						</div>
-						<p className="text-slate-500 mt-5">May 18 2020 . 8 min read</p>
-						<h3 className="mt-1 heading-h3">
+						<p className="text-slate-100 mt-5">May 18 2020 . 8 min read</p>
+						<h3 className="mt-1 heading-h3 text-slate-100">
 							<Link to="">What you should know before buying bitcoin</Link>
 						</h3>
 					</div>
@@ -65,7 +65,7 @@ const Blog = () => {
 						<div
 							className="relative"
 							data-aos="fade-up"
-							data-aos-duration={900}
+							data-aos-duration={300}
 						>
 							<span
 								className="absolute top-3 bg-blue-500 p-1 pe-6 text-sm font-semibold text-white"
@@ -78,8 +78,8 @@ const Blog = () => {
 							</span>
 							<img src={blog2} className="rounded-md" />
 						</div>
-						<p className="text-slate-500 mt-5">May 13 2020 . 2 min read</p>
-						<h3 className="mt-1 heading-h3">
+						<p className="text-slate-100 mt-5">May 13 2020 . 2 min read</p>
+						<h3 className="mt-1 heading-h3 text-slate-100">
 							<Link to="">A biggest crypto event to attend this month</Link>
 						</h3>
 					</div>

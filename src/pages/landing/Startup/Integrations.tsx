@@ -10,7 +10,7 @@ const Integrations = ({ integrations }: IntegrationsProps) => {
 		<section className="bg-gray-100 xl:py-24 py-16">
 			<div className="container" data-aos="fade-up" data-aos-duration={1500}>
 				<div className="text-center">
-					<span className="text-xs bg-primary/10 text-primary/90 rounded-full px-3 py-1">
+					<span className="text-xs bg-primary/10 text-secondary rounded-full px-3 py-1">
 						Integrations
 					</span>
 					<h1 className="text-3xl/tight font-medium mt-3 mb-4">

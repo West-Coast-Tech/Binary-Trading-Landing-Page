@@ -7,20 +7,20 @@ import whiteWave from '@/assets/images/shapes/white-wave.svg'
 
 const Hero = () => {
 	return (
-		<section className="bg-gradient-to-t from-yellow-50/80 relative">
+		<section className="bg-gradient-to-br from-primary to-secondary relative">
 			<section className="relative pt-44 pb-40">
 				<div className="container">
 					<div className="grid lg:grid-cols-7 grid-cols-1 gap-16 items-center">
 						<div className="lg:col-span-3 order-2 lg:order-1 text-center sm:text-start">
 							<h1 className="heading-h1 mb-7">
-								<span className="relative z-0 after:bg-yellow-200 after:-z-10 after:absolute after:h-6 after:w-full after:bottom-0 after:end-0">
+								<span className="relative z-0  after:-z-10 after:absolute after:h-6 after:w-full after:bottom-0 after:end-0">
 									About us
 								</span>
 							</h1>
-							<p className="text-lg py-2">
+							<p className="text-lg py-2 text-slate-100">
 								QUOTEX — it is a new level trading platform.
 							</p>
-							<p className="text-gray-500">
+							<p className="text-gray-100">
 								Our team launched the project in 2019, but has already managed
 								to declare itself. Each of our developers is a specialist of the
 								highest level with many years of experience. Some of them gave

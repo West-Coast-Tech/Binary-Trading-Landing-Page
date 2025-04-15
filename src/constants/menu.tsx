@@ -41,6 +41,12 @@ const MENU_ITEMS: MenuItemTypes[] = [
 		isTitle: false,
 	},
 	{
+		key: 'blogs',
+		label: 'Blogs',
+		url: '/pages/blogs/list',
+		isTitle: false,
+	},
+	{
 		key: 'faqs',
 		label: 'FAQs',
 		url: '/faqs',
@@ -202,37 +208,37 @@ const MENU_ITEMS: MenuItemTypes[] = [
 	// 		},
 	// 	],
 	// },
-	{
-		key: 'auth',
-		label: 'Account',
-		isTitle: false,
-		children: [
-			{
-				key: 'auth-login',
-				label: 'Login',
-				url: '/pages/account/login',
-				parentKey: 'pages',
-			},
-			{
-				key: 'auth-register',
-				label: 'Sign Up',
-				url: '/pages/account/register',
-				parentKey: 'pages',
-			},
-			{
-				key: 'auth-forget-password',
-				label: 'Forget Password',
-				url: '/pages/account/forget-password',
-				parentKey: 'pages',
-			},
-			{
-				key: 'auth-confirm-account',
-				label: 'Confirm Account',
-				url: '/pages/account/confirm-account',
-				parentKey: 'pages',
-			},
-		],
-	},
+	// {
+	// 	key: 'auth',
+	// 	label: 'Account',
+	// 	isTitle: false,
+	// 	children: [
+	// 		{
+	// 			key: 'auth-login',
+	// 			label: 'Login',
+	// 			url: '/pages/account/login',
+	// 			parentKey: 'pages',
+	// 		},
+	// 		{
+	// 			key: 'auth-register',
+	// 			label: 'Sign Up',
+	// 			url: '/pages/account/register',
+	// 			parentKey: 'pages',
+	// 		},
+	// 		{
+	// 			key: 'auth-forget-password',
+	// 			label: 'Forget Password',
+	// 			url: '/pages/account/forget-password',
+	// 			parentKey: 'pages',
+	// 		},
+	// 		{
+	// 			key: 'auth-confirm-account',
+	// 			label: 'Confirm Account',
+	// 			url: '/pages/account/confirm-account',
+	// 			parentKey: 'pages',
+	// 		},
+	// 	],
+	// },
 	// {
 	// 	key: 'contact-us',
 	// 	label: 'Contact us',
@@ -252,6 +258,12 @@ const HORIZONTAL_MENU_ITEMS: MenuItemTypes[] = [
 		key: 'about-us',
 		label: 'About us',
 		url: '/about-us',
+		isTitle: false,
+	},
+	{
+		key: 'blogs',
+		label: 'Blogs',
+		url: '/pages/blogs/list',
 		isTitle: false,
 	},
 	{

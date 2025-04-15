@@ -52,7 +52,7 @@ const features: Feature[] = [
 	{
 		icon: (
 			<svg
-				className="w-7 h-7 text-primary"
+				className="w-10 h-10 text-[#0057D9]"
 				viewBox="0 0 24 24"
 				version="1.1"
 				xmlns="http://www.w3.org/2000/svg"
@@ -66,12 +66,12 @@ const features: Feature[] = [
 						d="M4,4 L11.6314229,2.5691082 C11.8750185,2.52343403 12.1249815,2.52343403 12.3685771,2.5691082 L20,4 L20,13.2830094 C20,16.2173861 18.4883464,18.9447835 16,20.5 L12.5299989,22.6687507 C12.2057287,22.8714196 11.7942713,22.8714196 11.4700011,22.6687507 L8,20.5 C5.51165358,18.9447835 4,16.2173861 4,13.2830094 L4,4 Z"
 						id="Path-50"
 						fill="currentcolor"
-						opacity="0.3"
+						opacity="1"
 					/>{' '}
 					<path
 						d="M11.1750002,14.75 C10.9354169,14.75 10.6958335,14.6541667 10.5041669,14.4625 L8.58750019,12.5458333 C8.20416686,12.1625 8.20416686,11.5875 8.58750019,11.2041667 C8.97083352,10.8208333 9.59375019,10.8208333 9.92916686,11.2041667 L11.1750002,12.45 L14.3375002,9.2875 C14.7208335,8.90416667 15.2958335,8.90416667 15.6791669,9.2875 C16.0625002,9.67083333 16.0625002,10.2458333 15.6791669,10.6291667 L11.8458335,14.4625 C11.6541669,14.6541667 11.4145835,14.75 11.1750002,14.75 Z"
 						id="check-path"
-						fill="currentcolor"
+						fill="white"
 					/>{' '}
 				</g>{' '}
 			</svg>
@@ -83,7 +83,7 @@ const features: Feature[] = [
 	{
 		icon: (
 			<svg
-				className="w-7 h-7 text-primary"
+				className="w-10 h-10 text-[#00C853]"
 				viewBox="0 0 24 24"
 				version="1.1"
 				xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ const features: Feature[] = [
 					<rect
 						id="Combined-Shape"
 						fill="currentcolor"
-						opacity="0.3"
+						opacity="1"
 						x={2}
 						y={5}
 						width={20}
@@ -105,7 +105,8 @@ const features: Feature[] = [
 					/>{' '}
 					<rect
 						id="Rectangle-59"
-						fill="currentcolor"
+						fill="white"
+						opacity="1"
 						x={2}
 						y={8}
 						width={20}
@@ -113,8 +114,8 @@ const features: Feature[] = [
 					/>{' '}
 					<rect
 						id="Rectangle-59-Copy"
-						fill="currentcolor"
-						opacity="0.3"
+						fill="white"
+						opacity="0.8"
 						x={16}
 						y={14}
 						width={4}
@@ -131,7 +132,7 @@ const features: Feature[] = [
 	{
 		icon: (
 			<svg
-				className="w-7 h-7 text-primary"
+				className="w-10 h-10 text-[#FFB300]"
 				viewBox="0 0 24 24"
 				version="1.1"
 				xmlns="http://www.w3.org/2000/svg"
@@ -143,8 +144,8 @@ const features: Feature[] = [
 					<rect id="bound" x={0} y={0} width={24} height={24} />{' '}
 					<rect
 						id="Combined-Shape"
-						fill="currentcolor"
-						opacity="0.3"
+						fill="currentColor"
+						opacity="1"
 						x={2}
 						y={2}
 						width={20}
@@ -154,7 +155,7 @@ const features: Feature[] = [
 					<path
 						d="M6.16794971,14.5547002 C5.86159725,14.0951715 5.98577112,13.4743022 6.4452998,13.1679497 C6.90482849,12.8615972 7.52569784,12.9857711 7.83205029,13.4452998 C8.9890854,15.1808525 10.3543313,16 12,16 C13.6456687,16 15.0109146,15.1808525 16.1679497,13.4452998 C16.4743022,12.9857711 17.0951715,12.8615972 17.5547002,13.1679497 C18.0142289,13.4743022 18.1384028,14.0951715 17.8320503,14.5547002 C16.3224187,16.8191475 14.3543313,18 12,18 C9.64566871,18 7.67758127,16.8191475 6.16794971,14.5547002 Z"
 						id="Path-56"
-						fill="currentcolor"
+						fill="white"
 					/>{' '}
 				</g>{' '}
 			</svg>
@@ -166,7 +167,7 @@ const features: Feature[] = [
 	{
 		icon: (
 			<svg
-				className="w-7 h-7 text-primary"
+				className="w-10 h-10 text-[#FF3D00]"
 				viewBox="0 0 24 24"
 				version="1.1"
 				xmlns="http://www.w3.org/2000/svg"
@@ -197,7 +198,7 @@ const features: Feature[] = [
 	{
 		icon: (
 			<svg
-				className="w-7 h-7 text-primary"
+				className="w-10 h-10 text-[#FFB300]"
 				viewBox="0 0 24 24"
 				version="1.1"
 				xmlns="http://www.w3.org/2000/svg"
@@ -210,7 +211,7 @@ const features: Feature[] = [
 					<rect
 						id="Combined-Shape"
 						fill="currentcolor"
-						opacity="0.3"
+						opacity="1"
 						x={2}
 						y={2}
 						width={20}
@@ -220,7 +221,7 @@ const features: Feature[] = [
 					<path
 						d="M6.16794971,14.5547002 C5.86159725,14.0951715 5.98577112,13.4743022 6.4452998,13.1679497 C6.90482849,12.8615972 7.52569784,12.9857711 7.83205029,13.4452998 C8.9890854,15.1808525 10.3543313,16 12,16 C13.6456687,16 15.0109146,15.1808525 16.1679497,13.4452998 C16.4743022,12.9857711 17.0951715,12.8615972 17.5547002,13.1679497 C18.0142289,13.4743022 18.1384028,14.0951715 17.8320503,14.5547002 C16.3224187,16.8191475 14.3543313,18 12,18 C9.64566871,18 7.67758127,16.8191475 6.16794971,14.5547002 Z"
 						id="Path-56"
-						fill="currentcolor"
+						fill="white"
 					/>{' '}
 				</g>{' '}
 			</svg>
@@ -232,7 +233,7 @@ const features: Feature[] = [
 	{
 		icon: (
 			<svg
-				className="w-7 h-7 text-primary"
+				className="w-10 h-10 text-[#FF3D00]"
 				viewBox="0 0 24 24"
 				version="1.1"
 				xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
 	return (
-		<section className="py-8">
+		<section className="py-8 bg-gradient-to-br from-primary to-secondary">
 			<div className="container">
 				<ul className="flex flex-wrap items-center justify-center gap-5">
 					<li className="after:content-['-'] after:text-slate-300 after:font-extrabold">
@@ -23,7 +23,7 @@ const Footer = () => {
 				</ul>
 				<p className="mt-5 text-center text-slate-600">
 					{new Date().getFullYear()} © Prompt. All rights reserved. Crafted by
-					<Link to="" className="hover:text-blue-600">
+					<Link to="" className="text-gray-100">
 						Coderthemes
 					</Link>
 				</p>

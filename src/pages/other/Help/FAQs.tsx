@@ -1,4 +1,4 @@
-import { FAQContent, FUCollapse } from '@/components'
+import { FAQGeneral, FUCollapse } from '@/components'
 import { useState } from 'react'
 
 const FAQs = () => {
@@ -16,7 +16,7 @@ const FAQs = () => {
 			</p>
 			<div className="mt-10 lg:me-36">
 				<div data-fc-type="accordion">
-					{(FAQContent || []).map((item, idx) => {
+					{(FAQGeneral || []).map((item, idx) => {
 						return (
 							<FUCollapse
 								key={idx}

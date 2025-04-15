@@ -1,6 +1,6 @@
 /* Global Heading Styles */
 .heading-h1 {
-	@apply md:text-5xl/tight text-4xl font-bold text-gray-800;
+	@apply md:text-5xl/tight text-4xl font-bold text-gray-100;
 }
 
 .heading-h2 {

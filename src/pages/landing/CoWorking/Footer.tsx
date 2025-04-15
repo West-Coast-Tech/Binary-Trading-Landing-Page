@@ -89,7 +89,7 @@ const Footer = () => {
 										/>
 										<Link
 											to=""
-											className="text-white rounded-r-md text-sm py-[10px] px-4 duration-300 uppercase bg-primary hover:bg-primary/90"
+											className="text-white rounded-r-md text-sm py-[10px] px-4 duration-300 uppercase bg-primary hover:bg-secondary"
 										>
 											<i className="fa-regular fa-envelope text-xl" />
 										</Link>

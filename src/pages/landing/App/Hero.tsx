@@ -39,7 +39,7 @@ const Hero = () => {
 								<span className="flex items-center justify-center rounded-full w-10 h-10 bg-primary/10 text-primary hover:border hover:border-primary/20 hover:bg-primary/20">
 									<i className="fa-solid fa-play"></i>
 								</span>
-								<p className="font-medium text-primary hover:text-primary/90">
+								<p className="font-medium text-primary hover:text-secondary">
 									Watch Video
 								</p>
 							</Link>

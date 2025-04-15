@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { FAQContent, FUCollapse } from '@/components'
+import { FAQGeneral, FUCollapse } from '@/components'
 
 const FAQs = () => {
 	const [basicAccordion, setBasicAccordion] = useState<number | null>(0)
@@ -28,7 +28,7 @@ const FAQs = () => {
 					data-fc-type="accordion"
 					className="mt-14 lg:w-3/4 lg:mx-auto 2xl:w-2/3"
 				>
-					{(FAQContent || []).map((item, idx) => {
+					{(FAQGeneral || []).map((item, idx) => {
 						return (
 							<FUCollapse
 								key={idx}

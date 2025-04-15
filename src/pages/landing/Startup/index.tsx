@@ -9,6 +9,7 @@ import Services from '../PortFolio/Services'
 import { services } from '../PortFolio/data'
 import Practice from './practice'
 import MoreFeatures from './MoreFeatures'
+import TradingPlatformSection from './TradingPlatformSection'
 
 const Startup = () => {
 	return (
@@ -20,6 +21,8 @@ const Startup = () => {
 			<Services services={services} />
 
 			<FeedBack />
+
+			<TradingPlatformSection />
 
 			<Practice />
 

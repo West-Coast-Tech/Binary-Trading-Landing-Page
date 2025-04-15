@@ -9,15 +9,19 @@ type CoinsProps = {
 
 const Coins = ({ coins }: CoinsProps) => {
 	return (
-		<section className="py-20 bg-blue-100/30" data-aos="fade-up">
+		<section className="py-20 bg-primary">
 			<div className="container">
 				<div className="text-center">
-					<h2 className="heading-h2 text-gray-600">Supported coins</h2>
-					<p className="font-medium text-slate-500 mt-5 mb-4">
+					<h2 className="heading-h2 text-gray-100">Supported coins</h2>
+					<p className="font-medium text-slate-100 mt-5 mb-4">
 						Fastest way to buy or sell popular crypto coins.
 					</p>
 				</div>
-				<div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-5 gap-y-10 mt-16">
+				<div
+					className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2   gap-x-5 gap-y-10 mt-16 "
+					data-aos="fade-up"
+					data-aos-duration={300}
+				>
 					{(coins || []).map((coin, idx) => {
 						return (
 							<div
@@ -48,7 +52,7 @@ const Coins = ({ coins }: CoinsProps) => {
 				<div className="text-center mt-16">
 					<Link
 						to=""
-						className="py-5 px-4 btn-primary rounded border text-white bg-slate-500 hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"
+						className="py-5 px-4 btn-primary rounded text-white bg-blue-500 hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"
 					>
 						View complete list <i className="fa-solid fa-arrow-right ms-2" />
 					</Link>

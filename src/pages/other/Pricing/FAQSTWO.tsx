@@ -1,4 +1,4 @@
-import { FAQContent, FUCollapse } from '@/components'
+import { FAQFinancial, FUCollapse } from '@/components'
 import { useState } from 'react'
 
 const FAQSTWO = () => {
@@ -9,17 +9,17 @@ const FAQSTWO = () => {
 		else setBasicAccordion(index)
 	}
 	return (
-		<section className="py-12">
+		<section className="py-12 bg-gradient-to-br from-secondary to-primary/100 ">
 			<div className="container">
-				<div className="text-center max-w-2xl mx-auto bg-slate-100 flex flex-wrap gap-5 justify-center py-3">
-					<span className="text-sm font-medium rounded-full">💰</span>
+				<div className="text-center max-w-2xl mx-auto bg-blue-500 flex flex-wrap gap-5 justify-center py-3">
+					<span className="text-xl font-medium rounded-full">💰</span>
 					<h2 className="md:text-xl/tight text-xl font-semibold">
 						Financial Questions
 					</h2>
 				</div>
 				<div className="mt-8 lg:mx-32">
 					<div data-fc-type="accordion">
-						{(FAQContent || []).map((item, idx) => {
+						{(FAQFinancial || []).map((item, idx) => {
 							return (
 								<FUCollapse
 									key={idx}
@@ -39,7 +39,7 @@ const FAQSTWO = () => {
 											<span className="fa-solid fa-angle-down ms-auto transition-all fc-collapse-open:-rotate-90" />
 										</FUCollapse.Toggle>
 										<FUCollapse.Menu className="w-full overflow-hidden transition-[height] duration-300 ">
-											<p className="sm:text-sm font-medium text-gray-500 p-5 pt-0">
+											<p className="sm:text-sm  whitespace-pre-line font-medium text-gray-950 p-5 pt-0">
 												{item.description}
 											</p>
 										</FUCollapse.Menu>

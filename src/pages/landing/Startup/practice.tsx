@@ -7,15 +7,15 @@ import desktop from '@/assets/images/hero/desktop.png'
 
 const Practice = () => {
 	return (
-		<section className="xl:py-12 py-12 overflow-x-hidden">
+		<section className="xl:py-12 py-12 overflow-x-hidden bg-gradient-to-br from-primary to-secondary">
 			<div className="container">
 				<div>
 					<div className="grid lg:grid-cols-2 grid-cols-1 2xl:gap-24 gap-10 items-center">
 						<div className="order-2 lg:order-1">
-							<h2 className="heading-h2 mt-3 mb-4 text-center lg:text-left">
+							<h2 className="heading-h2 mt-3 mb-4 text-center lg:text-left text-slate-100">
 								Any doubts? Practice without risk with a demo account.
 							</h2>
-							<p className="text-gray-500 text-center lg:text-left">
+							<p className="text-gray-100 text-center lg:text-left">
 								We are open to our visitors. Therefore, if you have distrust
 								amid hundreds of projects related to trading on the stock
 								exchange, we hasten to reassure you. On our site you can use a
@@ -26,7 +26,7 @@ const Practice = () => {
 							<button className="mt-12 flex items-center justify-self-center lg:justify-self-start">
 								<Link
 									to=""
-									className="border btn-primary bg-[#0FAF59] rounded-md bg-green hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 transition-all duration-500 py-5 px-12"
+									className="btn-primary bg-blue-500 rounded-md bg-green hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 transition-all duration-500 py-5 px-12"
 								>
 									Demo Account <i className="fa-solid fa-arrow-right ms-2" />
 								</Link>

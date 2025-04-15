@@ -4,10 +4,11 @@ import './../../../global.css'
 //image
 import desktop1 from '@/assets/images/features/desktop1.gif'
 import desktop from '@/assets/images/hero/desktop.png'
+import symbol from '@/assets/images/application-imgs/symbol-bar.jpg'
 
 const Features = () => {
 	return (
-		<section className="xl:py-1 py-1 overflow-x-hidden">
+		<section className="xl:py-1 py-1 overflow-x-hidden bg-gradient-to-br from-secondary to-primary/100 ">
 			<div className="container">
 				{/* <div>
 					<div className="grid lg:grid-cols-2 grid-cols-1 2xl:gap-24 gap-10 items-center">
@@ -45,17 +46,17 @@ const Features = () => {
 					<div className="grid lg:grid-cols-2 grid-cols-1 2xl:gap-24 gap-10 items-center">
 						<div>
 							<img
-								src={desktop}
+								src={symbol}
 								data-aos="fade-right"
 								data-aos-duration={1500}
 							/>
 						</div>
 						<div>
-							<h2 className="heading-h2 mt-3 mb-4 text-center lg:text-start">
+							<h2 className="heading-h2 mt-3 mb-4 text-center lg:text-start text-slate-100">
 								We want everyone to be able to fulfill their desires and
 								opportunities.
 							</h2>
-							<p className="text-gray-500 text-center lg:text-start">
+							<p className="text-gray-100 text-center lg:text-start">
 								Our team has created not just another project for traders. First
 								of all, we developed a platform for the widest possible
 								audience. For people who want to learn how to use advanced

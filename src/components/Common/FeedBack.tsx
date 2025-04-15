@@ -42,15 +42,17 @@ const CommonSlide1 = ({ image, logo }: SlideProps) => {
 }
 const FeedBack = () => {
 	return (
-		<section className="py-16 sm:py-28 overflow-x-hidden">
-			<div className="container" data-aos="fade-up" data-aos-duration="600">
+		<section className="py-14 sm:py-28 overflow-x-hidden bg-gradient-to-br from-secondary to-primary/100 ">
+			<div className="container">
 				<div className="grid xl:grid-cols-4 grid-cols-3 gap-6">
 					<div className="col-span-3 lg:col-span-1 justify-items-center lg:justify-items-start">
-						<span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
+						<span className="text-sm font-medium py-1 px-3 rounded-full text-slate-100">
 							Quotex
 						</span>
-						<h2 className="heading-h2 mt-3 mb-4">Modern Plateform</h2>
-						<p className="text-gray-500">
+						<h2 className="heading-h2 mt-3 mb-4 text-slate-100">
+							Modern Plateform
+						</h2>
+						<p className="text-gray-100">
 							A friendly platform for modern people
 						</p>
 
