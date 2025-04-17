@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom'
 import './../../../global.css'
 
 //image
-import desktop1 from '@/assets/images/features/desktop1.gif'
-import desktop from '@/assets/images/hero/desktop.png'
+import desktop1 from '/assets/images/features/desktop1.gif'
+import desktop from '/assets/images/hero/desktop.png'
 
 const Practice = () => {
 	return (
@@ -13,15 +13,14 @@ const Practice = () => {
 					<div className="grid lg:grid-cols-2 grid-cols-1 2xl:gap-24 gap-10 items-center">
 						<div className="order-2 lg:order-1">
 							<h2 className="heading-h2 mt-3 mb-4 text-center lg:text-left text-slate-100">
-								Any doubts? Practice without risk with a demo account.
+								Aliqua ea eu nostrud id eu voluptate veniam qui excepteur esse
+								sunt.
 							</h2>
 							<p className="text-gray-100 text-center lg:text-left">
-								We are open to our visitors. Therefore, if you have distrust
-								amid hundreds of projects related to trading on the stock
-								exchange, we hasten to reassure you. On our site you can use a
-								demo account. It has nothing to do with real money. So you can
-								safely and without risk test the mechanism of the platform.
-								QUOTEX: while others doubt, you act!
+								Enim esse anim nisi consectetur consectetur dolor. Tempor
+								cupidatat sint in duis occaecat fugiat laboris aliqua. Labore
+								velit et dolor magna. Sit proident magna non eu consequat
+								ullamco excepteur aliquip magna deserunt ex cillum.
 							</p>
 							<button className="mt-12 flex items-center justify-self-center lg:justify-self-start">
 								<Link

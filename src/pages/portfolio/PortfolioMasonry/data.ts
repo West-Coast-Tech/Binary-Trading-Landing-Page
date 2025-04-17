@@ -2,13 +2,13 @@
 import { GalleryItem } from '../types'
 
 // images
-import img1 from '@/assets/images/photos/13.jpg'
-import img2 from '@/assets/images/photos/14.jpg'
-import img3 from '@/assets/images/photos/15.jpg'
-import img4 from '@/assets/images/photos/6.jpg'
-import img5 from '@/assets/images/photos/5.jpg'
-import img7 from '@/assets/images/photos/3.jpg'
-import img8 from '@/assets/images/photos/4.jpg'
+import img1 from '/assets/images/photos/13.jpg'
+import img2 from '/assets/images/photos/14.jpg'
+import img3 from '/assets/images/photos/15.jpg'
+import img4 from '/assets/images/photos/6.jpg'
+import img5 from '/assets/images/photos/5.jpg'
+import img7 from '/assets/images/photos/3.jpg'
+import img8 from '/assets/images/photos/4.jpg'
 
 const galleryItems: GalleryItem[] = [
 	{

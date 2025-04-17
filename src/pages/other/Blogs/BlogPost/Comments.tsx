@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom'
 import AddComment from './AddComment'
 
 //images
-import avatar1 from '@/assets/images/avatars/img-1.jpg'
-import avatar2 from '@/assets/images/avatars/img-2.jpg'
-import avatar4 from '@/assets/images/avatars/img-4.jpg'
+import avatar1 from '/assets/images/avatars/img-1.jpg'
+import avatar2 from '/assets/images/avatars/img-2.jpg'
+import avatar4 from '/assets/images/avatars/img-4.jpg'
 
 const Comments = () => {
 	return (

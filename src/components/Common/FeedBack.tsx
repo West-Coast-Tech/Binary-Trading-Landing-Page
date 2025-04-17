@@ -1,13 +1,13 @@
 import { Autoplay, Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import avatar1 from '@/assets/images/avatars/img-1.jpg'
-import avatar2 from '@/assets/images/avatars/img-2.jpg'
-import avatar3 from '@/assets/images/avatars/img-3.jpg'
+import avatar1 from '/assets/images/avatars/img-1.jpg'
+import avatar2 from '/assets/images/avatars/img-2.jpg'
+import avatar3 from '/assets/images/avatars/img-3.jpg'
 
-import google from '@/assets/images/brands/google.svg'
-import amazon from '@/assets/images/brands/amazon.svg'
-import lenovo from '@/assets/images/brands/lenovo.svg'
+import google from '/assets/images/brands/google.svg'
+import amazon from '/assets/images/brands/amazon.svg'
+import lenovo from '/assets/images/brands/lenovo.svg'
 import './../../global.css'
 
 interface SlideProps {
@@ -47,13 +47,14 @@ const FeedBack = () => {
 				<div className="grid xl:grid-cols-4 grid-cols-3 gap-6">
 					<div className="col-span-3 lg:col-span-1 justify-items-center lg:justify-items-start">
 						<span className="text-sm font-medium py-1 px-3 rounded-full text-slate-100">
-							Quotex
+							Binary
 						</span>
 						<h2 className="heading-h2 mt-3 mb-4 text-slate-100">
-							Modern Plateform
+							Tempor nisi officia amet incididunt.{' '}
 						</h2>
 						<p className="text-gray-100">
-							A friendly platform for modern people
+							Id do culpa adipisicing anim laborum in cillum deserunt Lorem ut
+							Lorem.{' '}
 						</p>
 
 						{/* <div className="flex gap-4 mt-10">
@@ -69,18 +70,18 @@ const FeedBack = () => {
 					<div className="col-span-3 lg:col-span-2 xl:col-span-3">
 						<div className="relative">
 							<div className="hidden sm:block">
-								<div className="before:w-24 before:h-24 before:absolute before:-top-8 before:-end-8 before:bg-[url('@/assets/images/pattern/dot5.svg')]"></div>
-								<div className="after:w-24 after:h-24 after:absolute after:-bottom-8 after:-start-8 after:bg-[url('@/assets/images/pattern/dot2.svg')]"></div>
+								<div className="before:w-24 before:h-24 before:absolute before:-top-8 before:-end-8 before:bg-[url('/assets/images/pattern/dot5.svg')]"></div>
+								<div className="after:w-24 after:h-24 after:absolute after:-bottom-8 after:-start-8 after:bg-[url('/assets/images/pattern/dot2.svg')]"></div>
 							</div>
 
 							<div id="swiper_one" className="swiper relative">
 								<div className="p-10 border rounded-xl bg-white shadow text-center lg:text-left">
-									The problem is that all the opportunities are usually provided
-									in private for close circle of people. And participating in
-									trading on the exchange, according to the majority, is
-									something complicated. Brokers, exchanges - all this is
-									incomprehensible to an ordinary person. Therefore, we are
-									making a public platform for everyone.
+									Amet laborum commodo qui sint Lorem duis voluptate. Ad cillum
+									et nisi tempor anim ullamco non in non velit. Magna veniam
+									quis nisi velit. Eiusmod mollit non magna amet tempor
+									reprehenderit sunt ea qui dolore. Officia quis consectetur
+									incididunt fugiat elit sit fugiat duis culpa. Ex cillum fugiat
+									consequat eu quis.
 								</div>
 							</div>
 						</div>

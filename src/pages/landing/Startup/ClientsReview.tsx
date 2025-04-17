@@ -1,9 +1,9 @@
 // images
-import amazon from '@/assets/images/brands/amazon.svg'
-import google from '@/assets/images/brands/google.svg'
-import paypal from '@/assets/images/brands/paypal.svg'
-import spotify from '@/assets/images/brands/spotify.svg'
-import shopify from '@/assets/images/brands/shopify.svg'
+import amazon from '/assets/images/brands/amazon.svg'
+import google from '/assets/images/brands/google.svg'
+import paypal from '/assets/images/brands/paypal.svg'
+import spotify from '/assets/images/brands/spotify.svg'
+import shopify from '/assets/images/brands/shopify.svg'
 
 const brands = [amazon, google, paypal, spotify, shopify]
 

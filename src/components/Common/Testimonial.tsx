@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { testimonials } from './data'
 
 //images
-import whiteWave from '@/assets/images/shapes/white-wave.svg'
+import whiteWave from '/assets/images/shapes/white-wave.svg'
 
 interface TestimonialProps {
 	name: string
@@ -78,8 +78,8 @@ const Testimonial = () => {
 
 						<div className="relative">
 							<div className="hidden sm:block">
-								<div className="before:w-24 before:h-24 before:absolute before:-top-10 before:-end-10 before:bg-[url('@/assets/images/pattern/dot3.svg')]"></div>
-								<div className="after:w-24 after:h-24 after:absolute after:-bottom-10 after:-start-10 after:bg-[url('@/assets/images/pattern/dot3.svg')]"></div>
+								<div className="before:w-24 before:h-24 before:absolute before:-top-10 before:-end-10 before:bg-[url('/assets/images/pattern/dot3.svg')]"></div>
+								<div className="after:w-24 after:h-24 after:absolute after:-bottom-10 after:-start-10 after:bg-[url('/assets/images/pattern/dot3.svg')]"></div>
 							</div>
 
 							<div id="swiper_two" className="swiper">

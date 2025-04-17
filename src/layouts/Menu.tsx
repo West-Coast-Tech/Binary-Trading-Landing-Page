@@ -12,7 +12,11 @@ import { Link, useLocation } from 'react-router-dom'
 import { MenuItemTypes } from '@/constants/menu'
 
 // helpers
-import { findAllParent, findMenuItem, getMenuItemFromURL } from '../helpers/menu'
+import {
+	findAllParent,
+	findMenuItem,
+	getMenuItemFromURL,
+} from '../helpers/menu'
 
 // hooks
 import { useLogoTheme } from '@/hooks'
@@ -51,8 +55,9 @@ const MenuItemWithChildren = ({
 			<>
 				<Link
 					to=""
-					className={`nav-link flex justify-between ${activeMenuItems!.includes(item['key']) ? 'active' : ''
-						}`}
+					className={`nav-link flex justify-between ${
+						activeMenuItems!.includes(item['key']) ? 'active' : ''
+					}`}
 					aria-expanded={open}
 					onClick={toggleMenuItem}
 					data-menu-key={item['key']}
@@ -75,10 +80,11 @@ const MenuItemWithChildren = ({
 			togglerClass={`w-full nav-item after:absolute hover:after:-bottom-10 after:inset-0`}
 		>
 			<ul
-				className={`nav-link ${open ? 'active' : ''
-					} origin-center -mt-0 transition-all bg-white rounded-lg shadow-lg border p-2 w-48 space-y-1.5 absolute`}
+				className={`nav-link ${
+					open ? 'active' : ''
+				} origin-center -mt-0 transition-all bg-white rounded-lg shadow-lg border p-2 w-48 space-y-1.5 absolute`}
 			>
-				{(item.children || []).map((child, idx) => {
+				{(item.children || []).map((child: any, idx: any) => {
 					return (
 						<React.Fragment key={idx}>
 							{child.children ? (
@@ -87,13 +93,17 @@ const MenuItemWithChildren = ({
 									toggleMenu={toggleMenu}
 									activeMenuItems={activeMenuItems}
 									subMenuClassNames="sub-menu"
-									linkClassName={activeMenuItems!.includes(child.key) ? 'active' : ''}
+									linkClassName={
+										activeMenuItems!.includes(child.key) ? 'active' : ''
+									}
 								/>
 							) : (
 								<MenuItem
 									item={child}
 									className={'nav-item'}
-									linkClassName={activeMenuItems!.includes(child.key) ? 'active' : ''}
+									linkClassName={
+										activeMenuItems!.includes(child.key) ? 'active' : ''
+									}
 								/>
 							)}
 						</React.Fragment>
@@ -161,12 +171,9 @@ const AppMenu = ({ menuItems }: AppMenuProps) => {
 	/**
 	 * activate the menuitems
 	 */
-	const activeMenu = useCallback(() => {	
-		const trimmedURL = location?.pathname?.replaceAll(
-			"",
-			''
-		)
-		const matchingMenuItem = getMenuItemFromURL(menuItems, trimmedURL);
+	const activeMenu = useCallback(() => {
+		const trimmedURL = location?.pathname?.replaceAll('', '')
+		const matchingMenuItem = getMenuItemFromURL(menuItems, trimmedURL)
 
 		if (matchingMenuItem) {
 			const activeMt = findMenuItem(menuItems, matchingMenuItem.key)
@@ -177,7 +184,7 @@ const AppMenu = ({ menuItems }: AppMenuProps) => {
 				])
 			}
 		}
-		}, [location.pathname, menuItems])
+	}, [location.pathname, menuItems])
 
 	useEffect(() => {
 		if (menuItems && menuItems.length > 0) activeMenu()

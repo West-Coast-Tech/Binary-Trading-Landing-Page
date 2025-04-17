@@ -1,8 +1,8 @@
 import React from 'react'
 const content = [
-	'The main advantage of QUOTEX is its premium quality in everything and there are no exceptions. Transparency of the platform, advanced technologies, attractive conditions for participants - all this makes us unique.',
-	'Thanks to cooperation with reliable brokers, we have achieved maximum control over quotations by the client. You can always check all the indicators in person!',
-	'Working to create a comfortable environment for all users of the platform, we have implemented the best functionality in terms of financial management. The lightning-fast speed of updating quotes and the interface is what creates comfort of working with the platform.',
+	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+	'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+	'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 	'Our support service deserves special attention. Each support staff member is a fan of his job. 24/7 lightning-fast feedback and a sincere desire to help—that is why we are ahead of alternative platforms. We are doing everything for your comfortable pastime.',
 ]
 const TradingPlatformSection = () => {

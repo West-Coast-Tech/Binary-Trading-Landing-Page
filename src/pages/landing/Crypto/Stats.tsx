@@ -1,7 +1,7 @@
 import CountUp from 'react-countup'
 
 //image
-import whiteWave from '@/assets/images/shapes/white-wave.svg'
+import whiteWave from '/assets/images/shapes/white-wave.svg'
 
 const Stats = () => {
 	return (

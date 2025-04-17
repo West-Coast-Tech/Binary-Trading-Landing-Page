@@ -3,8 +3,8 @@ import { FUCollapse } from '@/components'
 import { Link } from 'react-router-dom'
 
 //images
-import sass1 from '@/assets//images/hero/saas1.jpg'
-import sass2 from '@/assets//images/hero/saas2.jpg'
+import sass1 from '/assets//images/hero/saas1.jpg'
+import sass2 from '/assets//images/hero/saas2.jpg'
 
 const Features = () => {
 	const [accordion, setAccordion] = useState<number | null>(0)
@@ -36,8 +36,8 @@ const Features = () => {
 							<div className="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center">
 								<div className="relative">
 									<div className="hidden sm:block">
-										<div className="after:w-20 after:h-20 after:absolute after:-top-8 after:-start-8 2xl:after:end-0 after:bg-[url('@/assets/images/pattern/dot5.svg')]"></div>
-										<div className="before:w-20 before:h-20 before:absolute before:-bottom-8 before:-end-8 before:bg-[url('@/assets/images/pattern/dot2.svg')]"></div>
+										<div className="after:w-20 after:h-20 after:absolute after:-top-8 after:-start-8 2xl:after:end-0 after:bg-[url('/assets/images/pattern/dot5.svg')]"></div>
+										<div className="before:w-20 before:h-20 before:absolute before:-bottom-8 before:-end-8 before:bg-[url('/assets/images/pattern/dot2.svg')]"></div>
 									</div>
 									<img
 										src={sass1}
@@ -332,8 +332,8 @@ const Features = () => {
 
 								<div className="relative order-1 lg:order-2">
 									<div className="hidden sm:block">
-										<div className="after:w-20 after:h-20 after:absolute after:-top-8 after:-end-8 2xl:after:-end-8 after:bg-[url('@/assets/images/pattern/dot2.svg')]"></div>
-										<div className="before:w-20 before:h-20 before:absolute before:-bottom-8 before:-start-8 before:bg-[url('@/assets/images/pattern/dot5.svg')]"></div>
+										<div className="after:w-20 after:h-20 after:absolute after:-top-8 after:-end-8 2xl:after:-end-8 after:bg-[url('/assets/images/pattern/dot2.svg')]"></div>
+										<div className="before:w-20 before:h-20 before:absolute before:-bottom-8 before:-start-8 before:bg-[url('/assets/images/pattern/dot5.svg')]"></div>
 									</div>
 
 									<img
@@ -435,7 +435,8 @@ const Features = () => {
 								to=""
 								className="bg-primary text-white rounded-lg text-sm font-semibold flex-none hover:shadow-lg  hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 px-6 py-3"
 							>
-								Sign Up Now <i className="fa-solid fa-arrow-right ms-2"></i>{' '}
+								Sign Up Now{' '}
+								<i className="fa-solid fa-arrow-right ms-2"></i>{' '}
 							</Link>
 						</button>
 					</div>

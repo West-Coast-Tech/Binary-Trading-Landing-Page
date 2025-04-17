@@ -3,7 +3,11 @@ import { Link, useLocation } from 'react-router-dom'
 import { SimpleCollapse } from '@/components/FrostUI'
 
 // helpers
-import { findAllParent, findMenuItem, getMenuItemFromURL } from '../helpers/menu'
+import {
+	findAllParent,
+	findMenuItem,
+	getMenuItemFromURL,
+} from '../helpers/menu'
 
 // constants
 import { MenuItemTypes } from '../constants/menu'
@@ -61,12 +65,14 @@ const MenuItemWithChildren = ({
 					return (
 						<React.Fragment key={idx}>
 							{child.children ? (
-									<MenuItemWithChildren
+								<MenuItemWithChildren
 									item={child}
 									toggleMenu={toggleMenu}
 									activeMenuItems={activeMenuItems}
 									subMenuClassNames="sub-menu"
-									linkClassName={activeMenuItems!.includes(child.key) ? 'active' : ''}
+									linkClassName={
+										activeMenuItems!.includes(child.key) ? 'active' : ''
+									}
 								/>
 							) : (
 								<MenuItem
@@ -85,11 +91,7 @@ const MenuItemWithChildren = ({
 	)
 }
 
-const MenuItem = ({
-	item,
-	className,
-	linkClassName,
-}: SubMenus) => {
+const MenuItem = ({ item, className, linkClassName }: SubMenus) => {
 	return (
 		<li className={`${className}`}>
 			<MenuItemLink item={item} className={linkClassName} />
@@ -97,10 +99,7 @@ const MenuItem = ({
 	)
 }
 
-const MenuItemLink = ({
-	item,
-	className,
-}: SubMenus) => {
+const MenuItemLink = ({ item, className }: SubMenus) => {
 	return (
 		<Link
 			to={item.url!}
@@ -126,7 +125,7 @@ const MenuItemLink = ({
  * Renders the application menu
  */
 interface AppMenuProps {
-	menuItems: MenuItemTypes[] 
+	menuItems: MenuItemTypes[]
 }
 
 const VerticalMenu = ({ menuItems }: AppMenuProps) => {
@@ -148,12 +147,9 @@ const VerticalMenu = ({ menuItems }: AppMenuProps) => {
 		}
 	}
 
-	const activeMenu = useCallback(() => {	
-		const trimmedURL = location?.pathname?.replaceAll(
-			"",
-			''
-		)
-		const matchingMenuItem = getMenuItemFromURL(menuItems, trimmedURL);
+	const activeMenu = useCallback(() => {
+		const trimmedURL = location?.pathname?.replaceAll('', '')
+		const matchingMenuItem = getMenuItemFromURL(menuItems, trimmedURL)
 
 		if (matchingMenuItem) {
 			const activeMt = findMenuItem(menuItems, matchingMenuItem.key)
@@ -165,15 +161,15 @@ const VerticalMenu = ({ menuItems }: AppMenuProps) => {
 			}
 
 			setTimeout(function () {
-				const activatedItem:any = document.querySelector(`#right-menu a[href="${trimmedURL}"]`);
-			
+				const activatedItem: any = document.querySelector(
+					`#right-menu a[href="${trimmedURL}"]`
+				)
+
 				if (activatedItem != null) {
-					const simplebarContent = document.querySelector(
-						'#right-menu'
-					)
-				
+					const simplebarContent = document.querySelector('#right-menu')
+
 					const offset = activatedItem!.offsetTop - 150
-				
+
 					scrollTo(simplebarContent, 100, 600)
 					if (simplebarContent && offset > 100) {
 						scrollTo(simplebarContent, offset, 600)
@@ -237,9 +233,7 @@ const VerticalMenu = ({ menuItems }: AppMenuProps) => {
 										<MenuItem
 											item={item}
 											linkClassName={`${activeMenuItems.includes(item.key) ? 'active' : ''}`}
-											className={
-												"nav-item"
-											}
+											className={'nav-item'}
 										/>
 									)}
 								</>

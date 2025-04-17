@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 //image
-import avatar1 from '@/assets/images/avatars/img-1.jpg'
+import avatar1 from '/assets/images/avatars/img-1.jpg'
 
 const Hero = () => {
 	return (

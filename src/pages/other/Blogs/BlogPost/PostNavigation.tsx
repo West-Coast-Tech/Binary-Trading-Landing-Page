@@ -2,9 +2,9 @@ import Tippy from '@tippyjs/react'
 import { Link } from 'react-router-dom'
 
 //images
-import blogImg3 from '@/assets/images/blog/blog-3.png'
-import blogImg2 from '@/assets/images/blog/blog-2.png'
-import avatar2 from '@/assets/images/avatars/img-2.jpg'
+import blogImg3 from '/assets/images/blog/blog-3.png'
+import blogImg2 from '/assets/images/blog/blog-2.png'
+import avatar2 from '/assets/images/avatars/img-2.jpg'
 
 //style
 import 'tippy.js/dist/tippy.css'

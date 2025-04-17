@@ -1,12 +1,12 @@
 // types
 
 // images
-import img1 from '@/assets/images/photos/1.jpg'
-import img3 from '@/assets/images/photos/3.jpg'
-import img4 from '@/assets/images/photos/4.jpg'
-import img5 from '@/assets/images/photos/5.jpg'
-import img6 from '@/assets/images/photos/6.jpg'
-import img7 from '@/assets/images/photos/7.jpg'
+import img1 from '/assets/images/photos/1.jpg'
+import img3 from '/assets/images/photos/3.jpg'
+import img4 from '/assets/images/photos/4.jpg'
+import img5 from '/assets/images/photos/5.jpg'
+import img6 from '/assets/images/photos/6.jpg'
+import img7 from '/assets/images/photos/7.jpg'
 import { GalleryItem } from '../types'
 
 const galleryItems: GalleryItem[] = [

@@ -5,8 +5,8 @@ import { useEffect } from 'react'
 import { useThemeContext } from '@/context'
 
 //images
-import logoLight from '@/assets/images/logo-light.png'
-import logoDark from '@/assets/images/logo-dark.png'
+import logoLight from '/assets/images/buildings.svg'
+import logoDark from '/assets/images/buildings.svg'
 import { useLogoTheme, useToggle } from '@/hooks'
 import VerticalMenu from './VerticalMenu'
 import { OffcanvasLayout } from '@/components'

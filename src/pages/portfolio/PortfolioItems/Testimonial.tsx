@@ -2,9 +2,9 @@ import { Autoplay, Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 //images
-import avatar1 from '@/assets/images/avatars/img-1.jpg'
-import avatar2 from '@/assets/images/avatars/img-2.jpg'
-import avatar3 from '@/assets/images/avatars/img-3.jpg'
+import avatar1 from '/assets/images/avatars/img-1.jpg'
+import avatar2 from '/assets/images/avatars/img-2.jpg'
+import avatar3 from '/assets/images/avatars/img-3.jpg'
 
 const slidImages = [avatar1, avatar2, avatar3]
 const Testimonial = () => {
@@ -15,8 +15,8 @@ const Testimonial = () => {
 				<div>
 					<div className="relative">
 						<div className="hidden sm:block">
-							<div className="before:w-24 before:h-24 before:absolute before:-top-8 before:-end-8 before:bg-[url('@/assets/images/pattern/dot5.svg')]" />
-							<div className="after:w-24 after:h-24 after:absolute after:-bottom-8 after:-start-8 after:bg-[url('@/assets/images/pattern/dot2.svg')]" />
+							<div className="before:w-24 before:h-24 before:absolute before:-top-8 before:-end-8 before:bg-[url('/assets/images/pattern/dot5.svg')]" />
+							<div className="after:w-24 after:h-24 after:absolute after:-bottom-8 after:-start-8 after:bg-[url('/assets/images/pattern/dot2.svg')]" />
 						</div>
 						<div id="swiper_one" className="swiper relative">
 							<Swiper
