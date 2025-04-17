@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
-import blogImg1 from '@/assets/images/photos/3.jpg'
-import blogImg2 from '@/assets/images/photos/4.jpg'
-import blogImg3 from '@/assets/images/photos/5.jpg'
-import blogImg4 from '@/assets/images/photos/6.jpg'
-import post from '@/assets/images/blog/hero-post.png'
+import blogImg1 from '/assets/images/photos/3.jpg'
+import blogImg2 from '/assets/images/photos/4.jpg'
+import blogImg3 from '/assets/images/photos/5.jpg'
+import blogImg4 from '/assets/images/photos/6.jpg'
+import post from '/assets/images/blog/hero-post.png'
 
 const blogImages = [blogImg1, blogImg2, blogImg3, blogImg4]
 
@@ -12,18 +12,16 @@ const PostContent = () => {
 		<section>
 			<div className="container">
 				<p className="text-sm/relaxed tracking-wider text-gray-600 mb-5">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
-					officia neque beatae at inventore excepturi numquam sint commodi
-					alias, quam consequuntur corporis ex, distinctio eaque sapiente
-					pariatur iure ad necessitatibus in quod obcaecati natus consequatur.
-					Sed dicta maiores, eos culpa.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+					aliquip ex ea commodo consequat.
 				</p>
 				<p className="text-sm/relaxed tracking-wider text-gray-600 mb-6">
-					Voluptatum animi, voluptate sint aperiam facere a nam, ex reiciendis
-					eum nemo ipsum nobis, rem illum cupiditate at quaerat amet qui
-					recusandae hic, atque laboriosam perspiciatis? Esse quidem minima,
-					voluptas necessitatibus, officia culpa quo nulla, cupiditate iste vel
-					unde magni.
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+					dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est
+					laborum.
 				</p>
 				<div>
 					<img src={post} className="rounded-md" />
@@ -45,13 +43,12 @@ const PostContent = () => {
 				</p>
 				<div className="bg-gray-100 p-8 mb-6">
 					<h5 className="text-base sm:text-lg font-normal text-gray-600 mb-3">
-						Perspiciatis unde omnis iste natus error voluptatem accusantium
-						doloremque laudantium totam rem aperiam eaque ipsa quae ab illo
-						inventore veritatis et quasi architecto beataevitae dicta sunt
-						explicabo tempore cum soluta.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation ullamco laboris.
 					</h5>
 					<p className="text-gray-500 font-light text-sm">
-						<i className="fa-solid fa-minus me-2" /> Christian Hall
+						<i className="fa-solid fa-minus me-2" /> Lorem Ipsum
 					</p>
 				</div>
 				<p className="text-sm/relaxed tracking-wider text-gray-600 mb-5">

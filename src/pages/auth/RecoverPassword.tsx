@@ -4,7 +4,7 @@ import * as yup from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup'
 import { useEffect } from 'react'
 
-import logoDark from '@/assets/images/logo-dark.png'
+import logoDark from '/assets/images/buildings.svg'
 
 interface UserData {
 	email: string

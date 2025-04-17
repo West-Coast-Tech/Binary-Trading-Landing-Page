@@ -1,8 +1,5 @@
-import Benefits from './Benefits'
 import Hero from './Hero'
-import PricingPlans from './PricingPlans'
-import { benefits } from './data'
-import CTA from './CTA'
+
 import { Footer } from '@/components'
 import FAQSTWO from './FAQSTWO'
 import FAQSTHREE from './FAQSTHREE'

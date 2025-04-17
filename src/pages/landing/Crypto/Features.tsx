@@ -3,7 +3,7 @@ import { Feature } from './types'
 import './../../../global.css'
 
 //images
-import whiteWave from '@/assets/images/shapes/white-wave.svg'
+import whiteWave from '/assets/images/shapes/white-wave.svg'
 
 type FeaturesProps = {
 	features: Feature[]
@@ -18,8 +18,8 @@ const Features = ({ features }: FeaturesProps) => {
 						Features of the platform
 					</h2>
 					<p className="text-grey-100 mt-5 mb-4 text-2xl ">
-						We regularly improve our platform to make your trading comfortable
-						and safe.
+						Sunt qui dolor laboris qui voluptate culpa magna culpa cillum
+						laborum enim.
 					</p>
 				</div>
 				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-14">

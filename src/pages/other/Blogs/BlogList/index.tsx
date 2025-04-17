@@ -7,10 +7,10 @@ import BlogPost2 from './BlogPost2'
 import { Footer3 } from '@/components'
 
 //images
-import avatar1 from '@/assets/images/avatars/img-1.jpg'
-import avatar2 from '@/assets/images/avatars/img-2.jpg'
-import avatar3 from '@/assets/images/avatars/img-3.jpg'
-import blogImg from '@/assets/images/blog/post-bg.png'
+import avatar1 from '/assets/images/avatars/img-1.jpg'
+import avatar2 from '/assets/images/avatars/img-2.jpg'
+import avatar3 from '/assets/images/avatars/img-3.jpg'
+import blogImg from '/assets/images/blog/post-bg.png'
 
 const BlogList = () => {
 	// const { updateTopbar } = useThemeContext()

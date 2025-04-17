@@ -1,8 +1,8 @@
 import Tippy from '@tippyjs/react'
 
 //images
-import blogImg1 from '@/assets/images/blog/blog-1.png'
-import blogImg2 from '@/assets/images/blog/blog-2.png'
+import blogImg1 from '/assets/images/blog/blog-1.png'
+import blogImg2 from '/assets/images/blog/blog-2.png'
 
 //style
 import 'tippy.js/dist/tippy.css'

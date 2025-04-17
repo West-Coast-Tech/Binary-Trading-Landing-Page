@@ -6,9 +6,9 @@ type ContentProps = {
 }
 
 //image
-import heroPost from '@/assets/images/blog/hero-post.png'
-import Img1 from '@/assets/images/photos/13.jpg'
-import Img2 from '@/assets/images/photos/14.jpg'
+import heroPost from '/assets/images/blog/hero-post.png'
+import Img1 from '/assets/images/photos/13.jpg'
+import Img2 from '/assets/images/photos/14.jpg'
 const Content = ({ workImages }: ContentProps) => {
 	return (
 		<section className="pb-20">

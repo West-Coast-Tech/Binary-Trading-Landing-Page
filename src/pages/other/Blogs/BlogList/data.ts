@@ -1,14 +1,14 @@
 // images
-import postImg1 from '@/assets/images/blog/post1.jpg'
-import postImg2 from '@/assets/images/blog/post3.jpg'
+import postImg1 from '/assets/images/blog/post1.jpg'
+import postImg2 from '/assets/images/blog/post3.jpg'
 
-import avatar1 from '@/assets/images/avatars/img-1.jpg'
-import avatar2 from '@/assets/images/avatars/img-2.jpg'
-import avatar3 from '@/assets/images/avatars/img-7.jpg'
+import avatar1 from '/assets/images/avatars/img-1.jpg'
+import avatar2 from '/assets/images/avatars/img-2.jpg'
+import avatar3 from '/assets/images/avatars/img-7.jpg'
 
-import blog1 from '@/assets/images/blog/blog-1.png'
-import blog2 from '@/assets/images/blog/blog-2.png'
-import blog3 from '@/assets/images/blog/blog-3.png'
+import blog1 from '/assets/images/blog/blog-1.png'
+import blog2 from '/assets/images/blog/blog-2.png'
+import blog3 from '/assets/images/blog/blog-3.png'
 
 export type Post = {
 	image: string
@@ -30,31 +30,31 @@ export type Post = {
 const post1: Post[] = [
 	{
 		image: postImg1,
-		tag: { value: 'Announcement' },
-		title: 'Announcing the free upgrade for the subscribed plans',
+		tag: { value: 'Lorem Ipsum' },
+		title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
 		description:
-			'We are glad to announce that, we are going to upgrade all the subscribed accounts with the premium features this week...',
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...',
 		postedBy: {
 			avatar: avatar2,
-			name: 'Emily Blunt',
+			name: 'Lorem Ipsum',
 		},
 		postedOn: {
-			date: '11 Mar, 2020',
+			date: '11 Mar, 2023',
 			time: '3 min read',
 		},
 	},
 	{
 		image: postImg1,
-		tag: { value: 'Community' },
-		title: 'Will Web Design Ever Rule the World?',
+		tag: { value: 'Lorem Ipsum' },
+		title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
 		description:
-			'The web is changed in the current era a lot. Many new trends are being used in the market at the moment...',
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...',
 		postedBy: {
 			avatar: avatar1,
-			name: 'Greeva N',
+			name: 'Lorem Ipsum',
 		},
 		postedOn: {
-			date: '9 Mar, 2020',
+			date: '9 Mar, 2023',
 			time: '5 min read',
 		},
 	},
@@ -63,17 +63,17 @@ const post1: Post[] = [
 const post2: Post[] = [
 	{
 		image: blog1,
-		tag: { variant: 'bg-orange-500/10 text-orange-500', value: 'Announcement' },
-		title: 'Introducing new blazzing fast user interface',
+		tag: { variant: 'bg-orange-500/10 text-orange-500', value: 'Lorem Ipsum' },
+		title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
 		description:
-			'Introducing the blazzing fast user interface. The new UI is fast, secure and most user friendly...',
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...',
 	},
 	{
 		image: blog2,
-		tag: { variant: 'bg-green-500/10 text-green-500 ', value: 'Tutorial' },
-		title: 'What you should know before considering the Prompt',
+		tag: { variant: 'bg-green-500/10 text-green-500 ', value: 'Lorem Ipsum' },
+		title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
 		description:
-			'We are giving a pretty extensive guideline and context before you make your decision to consider Prompt...',
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...',
 	},
 	{
 		image: blog3,

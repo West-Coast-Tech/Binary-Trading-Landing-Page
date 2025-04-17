@@ -2,18 +2,18 @@ import { Link } from 'react-router-dom'
 import './../../../global.css'
 
 //iamges
-import blog1 from '@/assets/images/blog/blog-1.png'
-import blog2 from '@/assets/images/blog/blog-2.png'
-import blog3 from '@/assets/images/blog/blog-3.png'
+import blog1 from '/assets/images/blog/blog-1.png'
+import blog2 from '/assets/images/blog/blog-2.png'
+import blog3 from '/assets/images/blog/blog-3.png'
 
 const Blog = () => {
 	return (
 		<section className="py-20 bg-secondary">
 			<div className="container">
 				<div className="text-center">
-					<h2 className="heading-h2 my-3 text-slate-100">Useful Reading</h2>
+					<h2 className="heading-h2 my-3 text-slate-100">Lorem Ipsum</h2>
 					<p className="text-slate-100 mt-5 mb-4">
-						Few articles to read to know more about cryptocurrency
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit
 					</p>
 				</div>
 				<div className="grid lg:grid-cols-3 grid-cols-1 gap-5 mt-12">
@@ -30,13 +30,15 @@ const Blog = () => {
 										'polygon(0% 0%, 100% 0, 90% 49%, 100% 99%, 0% 100%)',
 								}}
 							>
-								Announcement
+								Lorem Ipsum
 							</span>
 							<img src={blog1} className="rounded-md" />
 						</div>
-						<p className="text-slate-100 mt-5">May 19 2020 . 5 min read</p>
+						<p className="text-slate-100 mt-5">Lorem Ipsum . Lorem Ipsum</p>
 						<h3 className="mt-1 heading-h3 text-slate-100">
-							<Link to="">Introducing blazzing fast new user interface</Link>
+							<Link to="">
+								Lorem ipsum dolor sit amet, consectetur adipiscing
+							</Link>
 						</h3>
 					</div>
 					<div>
@@ -52,13 +54,15 @@ const Blog = () => {
 										'polygon(0% 0%, 100% 0, 90% 49%, 100% 99%, 0% 100%)',
 								}}
 							>
-								Bitcoin
+								Lorem Ipsum
 							</span>
 							<img src={blog3} className="rounded-md" />
 						</div>
-						<p className="text-slate-100 mt-5">May 18 2020 . 8 min read</p>
+						<p className="text-slate-100 mt-5">Lorem Ipsum . Lorem Ipsum</p>
 						<h3 className="mt-1 heading-h3 text-slate-100">
-							<Link to="">What you should know before buying bitcoin</Link>
+							<Link to="">
+								Lorem ipsum dolor sit amet, consectetur adipiscing
+							</Link>
 						</h3>
 					</div>
 					<div>
@@ -74,13 +78,15 @@ const Blog = () => {
 										'polygon(0% 0%, 100% 0, 90% 49%, 100% 99%, 0% 100%)',
 								}}
 							>
-								Event
+								Lorem Ipsum
 							</span>
 							<img src={blog2} className="rounded-md" />
 						</div>
-						<p className="text-slate-100 mt-5">May 13 2020 . 2 min read</p>
+						<p className="text-slate-100 mt-5">Lorem Ipsum . Lorem Ipsum</p>
 						<h3 className="mt-1 heading-h3 text-slate-100">
-							<Link to="">A biggest crypto event to attend this month</Link>
+							<Link to="">
+								Lorem ipsum dolor sit amet, consectetur adipiscing
+							</Link>
 						</h3>
 					</div>
 				</div>

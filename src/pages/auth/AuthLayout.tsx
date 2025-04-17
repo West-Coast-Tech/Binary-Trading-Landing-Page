@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Pagination } from 'swiper/modules'
 
 //images
-import logoDark from '@/assets/images/logo-dark.png'
-import sass1 from '@/assets/images/hero/saas1.jpg'
-import sass2 from '@/assets/images/hero/saas2.jpg'
-import sass3 from '@/assets/images/hero/saas3.jpg'
+import logoDark from '/assets/images/buildings.svg'
+import sass1 from '/assets/images/hero/saas1.jpg'
+import sass2 from '/assets/images/hero/saas2.jpg'
+import sass3 from '/assets/images/hero/saas3.jpg'
 
 // styles
 import 'swiper/css'

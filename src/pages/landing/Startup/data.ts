@@ -2,55 +2,55 @@
 import { Integration, PlanFeature } from './types'
 
 // images
-import slack from '@/assets/images/brands/slack.png'
-import fb from '@/assets/images/brands/fb.png'
-import salesforce from '@/assets/images/brands/salesforce.jpg'
-import at from '@/assets/images/brands/at.png'
-import gsheet from '@/assets/images/brands/gsheet.png'
-import ac from '@/assets/images/brands/ac.jpeg'
+import slack from '/assets/images/brands/slack.png'
+import fb from '/assets/images/brands/fb.png'
+import salesforce from '/assets/images/brands/salesforce.jpg'
+import at from '/assets/images/brands/at.png'
+import gsheet from '/assets/images/brands/gsheet.png'
+import ac from '/assets/images/brands/ac.jpeg'
 
 const integrations: Integration[] = [
 	{
 		appLogo: slack,
-		app: 'Slack',
+		app: 'Lorem Ipsum',
 		description:
-			'Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go',
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 	},
 	{
 		appLogo: fb,
-		app: 'Facebook Lead Ads',
+		app: 'Lorem Ipsum',
 		description:
-			'Facebook lead ads make signing up for business information easy for people and more valuable for businesses',
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 	},
 	{
 		appLogo: salesforce,
-		app: 'Salesforce',
+		app: 'Lorem Ipsum',
 		description:
-			'Salesforce is a leading enterprise customer relationship manager (CRM) application',
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 	},
 	{
 		appLogo: at,
-		app: 'Airtable',
+		app: 'Lorem Ipsum',
 		description:
-			'Organize anything with Airtable, a modern database created for everyone',
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 	},
 	{
 		appLogo: gsheet,
-		app: 'Google Sheets',
+		app: 'Lorem Ipsum',
 		description:
-			'Create, edit, and share spreadsheets with Google Sheets, and get automated insights from data',
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 	},
 	{
 		appLogo: ac,
-		app: 'ActiveCampaign',
+		app: 'Lorem Ipsum',
 		description:
-			'ActiveCampaign combines all aspects of email marketing into a single and easy-to-use platform',
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 	},
 ]
 
 const planFeatures: PlanFeature[] = [
 	{
-		name: 'Landing pages',
+		name: 'Lorem Ipsum',
 		starter: {
 			available: true,
 		},
@@ -62,7 +62,7 @@ const planFeatures: PlanFeature[] = [
 		},
 	},
 	{
-		name: 'Drag-and-drop editor',
+		name: 'Lorem Ipsum',
 		starter: {
 			available: false,
 		},
@@ -74,7 +74,7 @@ const planFeatures: PlanFeature[] = [
 		},
 	},
 	{
-		name: 'Email marketing',
+		name: 'Lorem Ipsum',
 		starter: {
 			available: true,
 		},
@@ -86,7 +86,7 @@ const planFeatures: PlanFeature[] = [
 		},
 	},
 	{
-		name: 'Ad retargeting',
+		name: 'Lorem Ipsum',
 		starter: {
 			available: false,
 			addon: true,
@@ -99,7 +99,7 @@ const planFeatures: PlanFeature[] = [
 		},
 	},
 	{
-		name: 'Messenger integration',
+		name: 'Lorem Ipsum',
 		starter: {
 			available: false,
 		},
@@ -111,7 +111,7 @@ const planFeatures: PlanFeature[] = [
 		},
 	},
 	{
-		name: 'Live chat',
+		name: 'Lorem Ipsum',
 		starter: {
 			available: false,
 		},
@@ -124,7 +124,7 @@ const planFeatures: PlanFeature[] = [
 		},
 	},
 	{
-		name: 'Conversational bots',
+		name: 'Lorem Ipsum',
 		starter: {
 			available: false,
 		},
@@ -136,7 +136,7 @@ const planFeatures: PlanFeature[] = [
 		},
 	},
 	{
-		name: 'SEO recommendations & optimizations',
+		name: 'Lorem Ipsum',
 		starter: {
 			available: false,
 		},

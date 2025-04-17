@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 //images
-import logoDark from '@/assets/images/logo-dark.png'
+import logoDark from '/assets/images/buildings.svg'
 
 const Footer3 = () => {
 	return (

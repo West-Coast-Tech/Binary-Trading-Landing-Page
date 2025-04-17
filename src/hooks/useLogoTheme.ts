@@ -7,7 +7,7 @@ export default function useLogoTheme() {
 	const location = useLocation()
 
 	useEffect(() => {
-		const paths: string[] = ['/pages/blogs/list']
+		const paths: string[] = ['@/pages/blogs/list']
 		if (!paths.includes(location.pathname)) setIsDark(true)
 	}, [location.pathname])
 
