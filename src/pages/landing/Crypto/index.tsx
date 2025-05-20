@@ -7,20 +7,22 @@ import Integration from './Integration'
 import Stats from './Stats'
 import { coins, features } from './data'
 import FAQs from '@/pages/other/Pricing/FAQs'
+import { FeaturesWithMobile } from './FeaturesWithMobile'
+import { CoinsTable } from './CoinsTable/CoinsTable'
 
 const Crypto = () => {
 	return (
 		<>
 			<Hero />
-
-			<Features features={features} />
+			<FeaturesWithMobile features={features} />
+			{/* <Features features={features} /> */}
 
 			<Integration />
 
-			<Blog />
+			{/* <Blog /> */}
 
-			<Coins coins={coins} />
-
+			{/* <Coins coins={coins} /> */}
+			<CoinsTable />
 			{/* <Stats /> */}
 			<FAQs />
 			<Footer />

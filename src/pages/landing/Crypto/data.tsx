@@ -52,37 +52,6 @@ const features: Feature[] = [
 	{
 		icon: (
 			<svg
-				className="w-10 h-10 text-[#0057D9]"
-				viewBox="0 0 24 24"
-				version="1.1"
-				xmlns="http://www.w3.org/2000/svg"
-				xmlnsXlink="http://www.w3.org/1999/xlink"
-			>
-				{' '}
-				<g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
-					{' '}
-					<rect id="bound" x={0} y={0} width={24} height={24} />{' '}
-					<path
-						d="M4,4 L11.6314229,2.5691082 C11.8750185,2.52343403 12.1249815,2.52343403 12.3685771,2.5691082 L20,4 L20,13.2830094 C20,16.2173861 18.4883464,18.9447835 16,20.5 L12.5299989,22.6687507 C12.2057287,22.8714196 11.7942713,22.8714196 11.4700011,22.6687507 L8,20.5 C5.51165358,18.9447835 4,16.2173861 4,13.2830094 L4,4 Z"
-						id="Path-50"
-						fill="currentcolor"
-						opacity="1"
-					/>{' '}
-					<path
-						d="M11.1750002,14.75 C10.9354169,14.75 10.6958335,14.6541667 10.5041669,14.4625 L8.58750019,12.5458333 C8.20416686,12.1625 8.20416686,11.5875 8.58750019,11.2041667 C8.97083352,10.8208333 9.59375019,10.8208333 9.92916686,11.2041667 L11.1750002,12.45 L14.3375002,9.2875 C14.7208335,8.90416667 15.2958335,8.90416667 15.6791669,9.2875 C16.0625002,9.67083333 16.0625002,10.2458333 15.6791669,10.6291667 L11.8458335,14.4625 C11.6541669,14.6541667 11.4145835,14.75 11.1750002,14.75 Z"
-						id="check-path"
-						fill="white"
-					/>{' '}
-				</g>{' '}
-			</svg>
-		),
-		title: 'Lorem Ipsum',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-	},
-	{
-		icon: (
-			<svg
 				className="w-10 h-10 text-[#00C853]"
 				viewBox="0 0 24 24"
 				version="1.1"
@@ -125,10 +94,40 @@ const features: Feature[] = [
 				</g>{' '}
 			</svg>
 		),
-		title: 'Lorem Ipsum',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		title: 'Start with $10',
+		description: 'Begin trading today with just a ten-dollar deposit.',
 	},
+	{
+		icon: (
+			<svg
+				className="w-10 h-10 text-[#0057D9]"
+				viewBox="0 0 24 24"
+				version="1.1"
+				xmlns="http://www.w3.org/2000/svg"
+				xmlnsXlink="http://www.w3.org/1999/xlink"
+			>
+				{' '}
+				<g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+					{' '}
+					<rect id="bound" x={0} y={0} width={24} height={24} />{' '}
+					<path
+						d="M4,4 L11.6314229,2.5691082 C11.8750185,2.52343403 12.1249815,2.52343403 12.3685771,2.5691082 L20,4 L20,13.2830094 C20,16.2173861 18.4883464,18.9447835 16,20.5 L12.5299989,22.6687507 C12.2057287,22.8714196 11.7942713,22.8714196 11.4700011,22.6687507 L8,20.5 C5.51165358,18.9447835 4,16.2173861 4,13.2830094 L4,4 Z"
+						id="Path-50"
+						fill="currentcolor"
+						opacity="1"
+					/>{' '}
+					<path
+						d="M11.1750002,14.75 C10.9354169,14.75 10.6958335,14.6541667 10.5041669,14.4625 L8.58750019,12.5458333 C8.20416686,12.1625 8.20416686,11.5875 8.58750019,11.2041667 C8.97083352,10.8208333 9.59375019,10.8208333 9.92916686,11.2041667 L11.1750002,12.45 L14.3375002,9.2875 C14.7208335,8.90416667 15.2958335,8.90416667 15.6791669,9.2875 C16.0625002,9.67083333 16.0625002,10.2458333 15.6791669,10.6291667 L11.8458335,14.4625 C11.6541669,14.6541667 11.4145835,14.75 11.1750002,14.75 Z"
+						id="check-path"
+						fill="white"
+					/>{' '}
+				</g>{' '}
+			</svg>
+		),
+		title: 'Fast Withdrawals',
+		description: 'Get your profits out quickly with zero hassle anytime.',
+	},
+
 	{
 		icon: (
 			<svg
@@ -160,9 +159,8 @@ const features: Feature[] = [
 				</g>{' '}
 			</svg>
 		),
-		title: 'Lorem Ipsum',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		title: 'Flexible Payments',
+		description: 'Deposit and withdraw using multiple trusted payment methods.',
 	},
 	{
 		icon: (
@@ -192,9 +190,8 @@ const features: Feature[] = [
 				</g>{' '}
 			</svg>
 		),
-		title: 'Lorem Ipsum',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		title: 'Up to 30% Bonus',
+		description: 'Start strong with up to 30% bonus.',
 	},
 	{
 		icon: (
@@ -227,9 +224,8 @@ const features: Feature[] = [
 				</g>{' '}
 			</svg>
 		),
-		title: 'Lorem Ipsum',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		title: '24/7 Live Support',
+		description: 'Real humans, real help — available anytime you need it.',
 	},
 	{
 		icon: (
@@ -258,9 +254,9 @@ const features: Feature[] = [
 				</g>{' '}
 			</svg>
 		),
-		title: 'Lorem Ipsum',
+		title: 'Award-Winning Platform',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'Trinomo’s award-winning platform makes trading simple and powerful.',
 	},
 ]
 

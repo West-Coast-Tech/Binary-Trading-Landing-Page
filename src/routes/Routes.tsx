@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, RouteProps, Routes } from 'react-router-dom'
+import { Route, RouteProps, Routes, Navigate } from 'react-router-dom'
 
 import {
 	authProtectedFlattenRoutes,
@@ -22,7 +22,7 @@ const AllRoutes = (props: RouteProps) => {
 							key={idx}
 						/>
 					))}
-					;
+					<Route path="*" element={<Navigate to="/" replace />} />
 				</Route>
 			</Routes>
 		</React.Fragment>

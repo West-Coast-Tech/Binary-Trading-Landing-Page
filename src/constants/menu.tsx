@@ -30,25 +30,25 @@ export interface MenuItemTypes {
 const MENU_ITEMS: MenuItemTypes[] = [
 	{
 		key: 'home',
-		label: 'Home',
+		label: 'HOME',
 		url: '/',
 		isTitle: false,
 	},
 	{
 		key: 'about-us',
-		label: 'About us',
+		label: 'ABOUT US',
 		url: '/about-us',
 		isTitle: false,
 	},
 	{
 		key: 'blogs',
-		label: 'Blogs',
+		label: 'BLOGS',
 		url: '/pages/blogs/list',
 		isTitle: false,
 	},
 	{
 		key: 'faqs',
-		label: 'FAQs',
+		label: 'FAQS',
 		url: '/faqs',
 		isTitle: false,
 	},
@@ -250,25 +250,25 @@ const MENU_ITEMS: MenuItemTypes[] = [
 const HORIZONTAL_MENU_ITEMS: MenuItemTypes[] = [
 	{
 		key: 'home',
-		label: 'Home',
+		label: 'HOME',
 		url: '/',
 		isTitle: false,
 	},
 	{
 		key: 'about-us',
-		label: 'About us',
+		label: 'ABOUT US',
 		url: '/about-us',
 		isTitle: false,
 	},
 	{
 		key: 'blogs',
-		label: 'Blogs',
+		label: 'BLOGS',
 		url: '/pages/blogs/list',
 		isTitle: false,
 	},
 	{
 		key: 'faqs',
-		label: 'FAQs',
+		label: 'FAQS',
 		url: '/faqs',
 		isTitle: false,
 	},

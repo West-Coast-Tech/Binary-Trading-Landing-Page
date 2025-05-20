@@ -51,7 +51,7 @@ const Navbar = () => {
 						<div className="lg:block hidden ms-auto">
 							<AppMenu menuItems={getHorizontalMenuItems()} />
 						</div>
-						<div className="hidden lg:flex items-center ms-auto gap-2">
+						<div className="hidden lg:flex items-center ms-auto gap-6">
 							<button className="bg-[black] btn-primary px-4 py-2 rounded-md inline-flex items-center">
 								Log in
 							</button>
