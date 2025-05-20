@@ -40,7 +40,7 @@ export const CoinsTable = () => {
 			<div className="container relative w-full justify-center flex-col text-center py-12 ">
 				<div className="pb-10">
 					<h2 className="heading-h2 text-slate-100">
-						Trade assets from global markets
+						Trade assets from global markets.
 					</h2>
 					<p className="text-slate-100 mt-5 mb-4">
 						Capitalize on every opportunity with the world’s most popular
