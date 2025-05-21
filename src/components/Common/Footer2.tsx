@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './../../global.css'
 
 //image
-import logoDark from '/assets/images/buildings.svg'
+import logoDark from '/assets/images/logo-dark.svg'
 
 interface socialIcons {
 	socialIcon?: boolean

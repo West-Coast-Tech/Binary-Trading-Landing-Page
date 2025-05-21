@@ -5,8 +5,8 @@ import { useEffect } from 'react'
 import { useThemeContext } from '@/context'
 
 //images
-import logoLight from '/assets/images/buildings.svg'
-import logoDark from '/assets/images/buildings.svg'
+import logoLight from '/assets/images/logo-dark.svg'
+import logoDark from '/assets/images/logo-dark.svg'
 import { useLogoTheme, useToggle } from '@/hooks'
 import VerticalMenu from './VerticalMenu'
 import { OffcanvasLayout } from '@/components'
@@ -40,13 +40,14 @@ const Navbar = () => {
 				} fixed top-0 inset-x-0 flex items-center z-40 w-full lg:bg-transparent bg-primary transition-all py-5`}
 			>
 				<div className="container">
-					<nav className="flex items-center">
-						<Link to="/">
+					<nav className="flex flex-row items-center">
+						<Link className="flex flex-row items-center gap-3" to="/">
 							<img
 								src={isDark ? logoDark : logoLight}
 								className="h-8"
 								alt="Logo"
 							/>
+							<p className="uppercase font-bold tracking-wider">Trinomo</p>
 						</Link>
 						<div className="lg:block hidden ms-auto">
 							<AppMenu menuItems={getHorizontalMenuItems()} />

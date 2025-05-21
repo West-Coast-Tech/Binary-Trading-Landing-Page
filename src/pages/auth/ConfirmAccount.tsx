@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 //image
-import logoDark from '/assets/images/buildings.svg'
+import logoDark from '/assets/images/logo-dark.svg'
 
 const ConfirmAccount = () => {
 	useEffect(() => {

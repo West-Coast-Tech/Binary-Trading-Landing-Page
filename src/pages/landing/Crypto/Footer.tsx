@@ -1,5 +1,5 @@
 import React from 'react'
-import logoDark from '/assets/images/buildings.svg'
+import logoDark from '/assets/images/logo-dark.svg'
 export const Footer = () => {
 	return (
 		<div className="w-full bg-gradient-to-b from-gray-800 to-secondary text-gray-500 text-xs px-4">
