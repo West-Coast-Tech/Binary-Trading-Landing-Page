@@ -26,8 +26,8 @@ const Clients = () => {
 							</h1>
 							<p className="text-gray-500">
 								21,000+ organizations trust{' '}
-								<span className="text-primary">Prompt</span> to drive perfomance
-								& engagement
+								<span className="text-primary">Trinomo</span> to drive
+								perfomance & engagement
 							</p>
 						</div>
 

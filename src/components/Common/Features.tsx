@@ -27,7 +27,7 @@ const Features = () => {
 								Better Management. Better Performance
 							</h1>
 							<p className="text-gray-500">
-								Start working with <span className="text-primary">Prompt</span>{' '}
+								Start working with <span className="text-primary">Trinomo</span>{' '}
 								to manage your workforce better
 							</p>
 						</div>
@@ -165,7 +165,7 @@ const Features = () => {
 											<FUCollapse.Menu className="w-full overflow-hidden duration-300 ps-16">
 												<p className="text-gray-700 dark:text-gray-300">
 													Post your job, interview candidates and make offers,
-													all on Prompt. Start hiring today.
+													all on Trinomo. Start hiring today.
 												</p>
 												<div className="mt-7 flex items-center">
 													<Link to="" className="text-primary">
