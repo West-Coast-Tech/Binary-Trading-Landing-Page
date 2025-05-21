@@ -1,4 +1,4 @@
-import { Footer } from '@/components'
+// import { Footer } from '@/components'
 import Blog from './Blog'
 import Coins from './Coins'
 import Features from './Features'
@@ -9,6 +9,7 @@ import { coins, features } from './data'
 import FAQs from '@/pages/other/Pricing/FAQs'
 import { FeaturesWithMobile } from './FeaturesWithMobile'
 import { CoinsTable } from './CoinsTable/CoinsTable'
+import { Footer } from './Footer'
 
 const Crypto = () => {
 	return (
@@ -24,7 +25,7 @@ const Crypto = () => {
 			{/* <Coins coins={coins} /> */}
 			<CoinsTable />
 			{/* <Stats /> */}
-			<FAQs />
+			{/* <FAQs /> */}
 			<Footer />
 		</>
 	)
