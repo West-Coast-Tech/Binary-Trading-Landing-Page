@@ -69,8 +69,11 @@ const Integration = () => {
 						</div>
 					</div>
 					<div className="flex flex-wrap items-center gap-5 mt-12 justify-center ">
+						{/* make sure it opens in a new tab */}
 						<Link
-							to=""
+							to="https://options.trinomo.com/register"
+							target="_blank"
+							rel="noopener noreferrer"
 							className="py-5 px-4 btn-primary rounded bg-blue-500 hover:shadow-lg hover:shadow-primary/50 transition-all duration-500"
 						>
 							Register Now <i className="fa-solid fa-arrow-right ms-2" />

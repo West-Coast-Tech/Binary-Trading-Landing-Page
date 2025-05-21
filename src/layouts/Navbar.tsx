@@ -52,12 +52,22 @@ const Navbar = () => {
 							<AppMenu menuItems={getHorizontalMenuItems()} />
 						</div>
 						<div className="hidden lg:flex items-center ms-auto gap-6">
-							<button className="bg-[black] btn-primary px-4 py-2 rounded-md inline-flex items-center">
+							<a
+								href="https://options.trinomo.com/login"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="bg-[black] btn-primary px-4 py-2 rounded-md inline-flex items-center"
+							>
 								Log in
-							</button>
-							<button className="bg-[#007aff] btn-primary px-4 py-2 rounded-md inline-flex items-center">
+							</a>
+							<a
+								href="https://options.trinomo.com/register"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="bg-[#007aff] btn-primary px-4 py-2 rounded-md inline-flex items-center"
+							>
 								Sign up
-							</button>
+							</a>
 						</div>
 						<div className="lg:hidden flex items-center ms-auto px-2.5">
 							<button type="button" onClick={toggleOffcanvas}>

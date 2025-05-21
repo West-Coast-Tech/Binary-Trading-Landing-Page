@@ -228,7 +228,9 @@ const Hero = () => {
 					</p>
 					<div className="flex flex-row items-center gap-16 justify-center sm:px-4 ">
 						<Link
-							to=""
+							to="https://options.trinomo.com/register"
+							target="_blank"
+							rel="noopener noreferrer"
 							className="py-3 px-3 sm:px-8 text-nowrap text-sm sm:text-base md:text-lg rounded bg-blue-500 hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"
 						>
 							Try now for free
